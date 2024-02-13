@@ -25,3 +25,13 @@ def two_list_dictionary(list1, list2):
 
 
 print(two_list_dictionary(["a", "b", "c", "d"], [1, 2, 3]))
+
+
+"""
+Given two python lists of varying length, function needs to check length of both lists and then create
+a dictionary from the values. First list given should be keys and second list is the values. Need an if
+statement to check length of lists, if length of 1st list is bigger than 2nd list then loop in range of
+list1 - list2, and append None value to the key that won't have a value to it. After the if statement
+return the dictionary which is a zip of list1 and list2. If length of list 1 is smaller, then return
+dictionary of zip list1 and list2, as the last value of list2 will be ignored.
+"""
