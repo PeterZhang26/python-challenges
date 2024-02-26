@@ -23,3 +23,10 @@ def find_the_duplicate(my_array):
 my_array = [1, 2, 3, 7, 11, 2, 4, 5, 9]
 
 print(find_the_duplicate(my_array))
+
+"""
+This function is finding duplicates for and arrary of numbers through counting of elements
+in the list provided, the function is looping the list and counting each element within the
+list. If the count is bigger than 1, then it will return the number value that has a count
+bigger than 1
+"""

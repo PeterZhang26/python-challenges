@@ -18,3 +18,12 @@ def same_frequency(num1, num2):
 
 
 print(f"The frequency of numbers provided is {same_frequency(6942022, 4269022)}")
+
+
+"""
+The function is mainly checking if the string of numbers provided is firstly, the
+same length and then checking if the string of numbers after sorted has the same
+frequency of numbers, for example the numbers 1212 and 2211 after being sorted would
+be 1122, checking if the strings are equal with the same number of 1s and 2s gives
+True.
+"""
