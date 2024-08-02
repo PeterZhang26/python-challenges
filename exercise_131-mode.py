@@ -32,3 +32,19 @@ def mode(nums):
 
 
 print(mode([2, 4, 1, 2, 3, 3, 4, 4, 5, 4, 4, 6, 4, 6, 7, 4]))
+
+"""
+We want to count the number that occurs the most given a defined list with numbers
+populated. What we need to do here is assign a count to each number and store that
+count to each individual number, which we can achieve by using a dictionary. The key
+value pair of the dictionary will be the number and the count of the number. After
+The empty dictionary frequency is first initiated, then we loop through the list of
+numbers, with an if condition. If the number already exists in the dictionary, add
+a counter +1, else if the number is not in the dictionary already then set the count 
+to 1. Once the dictionary is created, we set 2 variables. Max count = 0 and mode_number
+= None. The next for loop is dictionary iteration, for the numbers and counts of numbers
+in the dictionary items, if the count value is > max_count then set max_count to that
+value, then update mode_number to the corresponding number with the max_count. Once
+the number with the biggest count is found, return the number key paired with that
+value.
+"""
