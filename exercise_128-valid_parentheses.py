@@ -43,3 +43,14 @@ print(valid_parentheses("(())((()())())"))  # True )
 print(valid_parentheses(")(()))"))  # False )
 print(valid_parentheses("(())((()())())"))  # True )
 print(valid_parentheses("()()()()())()("))  # False))
+
+"""
+Working with python lists to help loop through the given string, 1st an empty
+list initialized to add and remove the parentheses. First for loop iterates
+the characters in the string. If condition, character is == "(" then append
+to the empty list, elif condition is == ")" then remove top element from list.
+Inner if statement in elif, if list is not empty pop the element, else return
+False condition. The final return statment checks if the length of the list is
+== 0, if the list is 0 then logic assumes there are equal number of parentheses
+brackets.
+"""
